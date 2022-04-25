@@ -1,0 +1,81 @@
+2022-04-25 15:42:02 [restartedMain] WARN  - No MyBatis mapper was found in '[cj.springboot2.template.mybatis.plus.dao]' package. Please check your configuration.
+2022-04-25 15:42:03 [restartedMain] WARN  - dynamic-datasource initial loaded [0] datasource,Please add your primary datasource or check your configuration
+2022-04-25 15:42:04 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 15:42:04 [restartedMain] WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9001 is already in use
+2022-04-25 15:42:22 [restartedMain] WARN  - No MyBatis mapper was found in '[cj.springboot2.template.mybatis.plus.dao]' package. Please check your configuration.
+2022-04-25 15:42:22 [restartedMain] WARN  - dynamic-datasource initial loaded [0] datasource,Please add your primary datasource or check your configuration
+2022-04-25 15:42:23 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 15:42:23 [RMI TCP Connection(1)-172.16.18.25] WARN  - DataSource health check failed
+com.baomidou.dynamic.datasource.exception.CannotFindDataSourceException: dynamic-datasource can not find primary datasource
+	at com.baomidou.dynamic.datasource.DynamicRoutingDataSource.determinePrimaryDataSource(DynamicRoutingDataSource.java:91)
+	at com.baomidou.dynamic.datasource.DynamicRoutingDataSource.getDataSource(DynamicRoutingDataSource.java:120)
+	at com.baomidou.dynamic.datasource.DynamicRoutingDataSource.determineDataSource(DynamicRoutingDataSource.java:78)
+	at com.baomidou.dynamic.datasource.ds.AbstractRoutingDataSource.getConnection(AbstractRoutingDataSource.java:48)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:105)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:100)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:74)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:361)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-04-25 15:49:05 [restartedMain] WARN  - No MyBatis mapper was found in '[cj.springboot2.template.mybatis.plus.dao]' package. Please check your configuration.
+2022-04-25 15:49:06 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 15:50:23 [restartedMain] WARN  - No MyBatis mapper was found in '[cj.springboot2.template.mybatis.plus.dao]' package. Please check your configuration.
+2022-04-25 15:50:23 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 15:52:52 [restartedMain] WARN  - No MyBatis mapper was found in '[cj.springboot2.template.mybatis.plus.dao]' package. Please check your configuration.
+2022-04-25 15:52:53 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 15:56:18 [restartedMain] WARN  - No MyBatis mapper was found in '[cj.springboot2.template.mybatis.plus.dao]' package. Please check your configuration.
+2022-04-25 15:56:19 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 15:58:59 [restartedMain] WARN  - No MyBatis mapper was found in '[cj.springboot2.template.mybatis.plus.dao]' package. Please check your configuration.
+2022-04-25 15:58:59 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 15:59:20 [restartedMain] WARN  - No MyBatis mapper was found in '[cj.springboot2.template.mybatis.plus.dao]' package. Please check your configuration.
+2022-04-25 15:59:20 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 15:59:23 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 16:05:26 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 16:06:10 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 16:07:18 [restartedMain] WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysUserController': Unsatisfied dependency expressed through field 'sysUserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysUserServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysUserDao' defined in file [E:\java\cjProject\cj-springboot-all\mybatis-plus\target\classes\cj\springboot2\template\mybatis\plus\dao\SysUserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties': Could not bind properties to 'MybatisPlusProperties' : prefix=mybatis-plus, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'mybatis-plus.configuration' to com.baomidou.mybatisplus.core.MybatisConfiguration
+2022-04-25 16:07:30 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-25 16:08:22 [restartedMain] WARN  - Unable to start LiveReload server

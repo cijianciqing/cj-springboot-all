@@ -1,0 +1,78 @@
+2022-04-25 15:28:24 [restartedMain] INFO  - Starting Springboot2WebBasicApplicatoin using Java 1.8.0_161 on NS-20200706KEOF with PID 8164 (E:\java\cjProject\cj-springboot-all\web-basic\target\classes started by Administrator in E:\java\cjProject\cj-springboot-all)
+2022-04-25 15:28:24 [restartedMain] INFO  - The following profiles are active: dev
+2022-04-25 15:28:24 [restartedMain] INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-25 15:28:24 [restartedMain] INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-25 15:28:24 [restartedMain] INFO  - Tomcat initialized with port(s): 9001 (http)
+2022-04-25 15:28:24 [restartedMain] INFO  - Initializing ProtocolHandler ["http-nio-9001"]
+2022-04-25 15:28:24 [restartedMain] INFO  - Starting service [Tomcat]
+2022-04-25 15:28:24 [restartedMain] INFO  - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-25 15:28:25 [restartedMain] INFO  - Initializing Spring embedded WebApplicationContext
+2022-04-25 15:28:25 [restartedMain] INFO  - Root WebApplicationContext: initialization completed in 1006 ms
+2022-04-25 15:28:25 [restartedMain] INFO  - Initializing Dozer. Version: 6.4.0, Thread Name: restartedMain
+2022-04-25 15:28:25 [restartedMain] INFO  - OSGi support is false
+2022-04-25 15:28:25 [restartedMain] INFO  - Trying to find Dozer configuration file: dozer.properties
+2022-04-25 15:28:25 [restartedMain] INFO  - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-04-25 15:28:25 [restartedMain] INFO  - Using URL [cjDefaultDozerBeanMapping.xml] to load custom xml mappings
+2022-04-25 15:28:25 [restartedMain] INFO  - Trying to resolve XML entity with public ID [null] and system ID [http://dozermapper.github.io/schema/bean-mapping.xsd]
+2022-04-25 15:28:25 [restartedMain] INFO  - Resolved public ID [null] and system ID [http://dozermapper.github.io/schema/bean-mapping.xsd]
+2022-04-25 15:28:25 [restartedMain] INFO  - Successfully loaded custom xml mapping.
+2022-04-25 15:28:25 [restartedMain] INFO  - Initializing Dozer. Version: 6.4.0, Thread Name: restartedMain
+2022-04-25 15:28:25 [restartedMain] INFO  - Trying to find Dozer configuration file: dozer.properties
+2022-04-25 15:28:25 [restartedMain] INFO  - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-04-25 15:28:25 [restartedMain] INFO  - javax.el support is true
+2022-04-25 15:28:25 [restartedMain] INFO  - LiveReload server is running on port 35729
+2022-04-25 15:28:25 [restartedMain] INFO  - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-25 15:28:25 [restartedMain] INFO  - Starting ProtocolHandler ["http-nio-9001"]
+2022-04-25 15:28:25 [restartedMain] INFO  - Tomcat started on port(s): 9001 (http) with context path ''
+2022-04-25 15:28:25 [restartedMain] INFO  - Started Springboot2WebBasicApplicatoin in 2.24 seconds (JVM running for 2.787)
+2022-04-25 15:28:27 [RMI TCP Connection(4)-172.16.18.25] INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-25 15:28:27 [RMI TCP Connection(4)-172.16.18.25] INFO  - Initializing Servlet 'dispatcherServlet'
+2022-04-25 15:28:27 [RMI TCP Connection(4)-172.16.18.25] INFO  - Completed initialization in 1 ms
+2022-04-25 15:50:23 [restartedMain] INFO  - Starting Springboot2WebBasicApplicatoin using Java 1.8.0_161 on NS-20200706KEOF with PID 8164 (E:\java\cjProject\cj-springboot-all\web-basic\target\classes started by Administrator in E:\java\cjProject\cj-springboot-all)
+2022-04-25 15:50:23 [restartedMain] INFO  - The following profiles are active: dev
+2022-04-25 15:50:23 [restartedMain] INFO  - Tomcat initialized with port(s): 9001 (http)
+2022-04-25 15:50:23 [restartedMain] INFO  - Initializing ProtocolHandler ["http-nio-9001"]
+2022-04-25 15:50:23 [restartedMain] INFO  - Starting service [Tomcat]
+2022-04-25 15:50:23 [restartedMain] INFO  - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-25 15:50:23 [restartedMain] INFO  - Initializing Spring embedded WebApplicationContext
+2022-04-25 15:50:23 [restartedMain] INFO  - Root WebApplicationContext: initialization completed in 243 ms
+2022-04-25 15:50:23 [restartedMain] INFO  - Initializing Dozer. Version: 6.4.0, Thread Name: restartedMain
+2022-04-25 15:50:23 [restartedMain] INFO  - Trying to find Dozer configuration file: dozer.properties
+2022-04-25 15:50:23 [restartedMain] INFO  - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-04-25 15:50:23 [restartedMain] INFO  - Using URL [cjDefaultDozerBeanMapping.xml] to load custom xml mappings
+2022-04-25 15:50:23 [restartedMain] INFO  - Trying to resolve XML entity with public ID [null] and system ID [http://dozermapper.github.io/schema/bean-mapping.xsd]
+2022-04-25 15:50:23 [restartedMain] INFO  - Resolved public ID [null] and system ID [http://dozermapper.github.io/schema/bean-mapping.xsd]
+2022-04-25 15:50:23 [restartedMain] INFO  - Successfully loaded custom xml mapping.
+2022-04-25 15:50:23 [restartedMain] INFO  - Initializing Dozer. Version: 6.4.0, Thread Name: restartedMain
+2022-04-25 15:50:23 [restartedMain] INFO  - Trying to find Dozer configuration file: dozer.properties
+2022-04-25 15:50:23 [restartedMain] INFO  - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-04-25 15:50:23 [restartedMain] INFO  - LiveReload server is running on port 35729
+2022-04-25 15:50:23 [restartedMain] INFO  - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-25 15:50:23 [restartedMain] INFO  - Starting ProtocolHandler ["http-nio-9001"]
+2022-04-25 15:50:23 [restartedMain] INFO  - Tomcat started on port(s): 9001 (http) with context path ''
+2022-04-25 15:50:23 [restartedMain] INFO  - Started Springboot2WebBasicApplicatoin in 0.437 seconds (JVM running for 1320.621)
+2022-04-25 15:50:23 [restartedMain] INFO  - Condition evaluation unchanged
+2022-04-25 15:50:25 [restartedMain] INFO  - Starting Springboot2WebBasicApplicatoin using Java 1.8.0_161 on NS-20200706KEOF with PID 8164 (E:\java\cjProject\cj-springboot-all\web-basic\target\classes started by Administrator in E:\java\cjProject\cj-springboot-all)
+2022-04-25 15:50:25 [restartedMain] INFO  - The following profiles are active: dev
+2022-04-25 15:50:25 [restartedMain] INFO  - Tomcat initialized with port(s): 9001 (http)
+2022-04-25 15:50:25 [restartedMain] INFO  - Initializing ProtocolHandler ["http-nio-9001"]
+2022-04-25 15:50:25 [restartedMain] INFO  - Starting service [Tomcat]
+2022-04-25 15:50:25 [restartedMain] INFO  - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-25 15:50:25 [restartedMain] INFO  - Initializing Spring embedded WebApplicationContext
+2022-04-25 15:50:25 [restartedMain] INFO  - Root WebApplicationContext: initialization completed in 173 ms
+2022-04-25 15:50:25 [restartedMain] INFO  - Initializing Dozer. Version: 6.4.0, Thread Name: restartedMain
+2022-04-25 15:50:25 [restartedMain] INFO  - Trying to find Dozer configuration file: dozer.properties
+2022-04-25 15:50:25 [restartedMain] INFO  - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-04-25 15:50:25 [restartedMain] INFO  - Using URL [cjDefaultDozerBeanMapping.xml] to load custom xml mappings
+2022-04-25 15:50:25 [restartedMain] INFO  - Trying to resolve XML entity with public ID [null] and system ID [http://dozermapper.github.io/schema/bean-mapping.xsd]
+2022-04-25 15:50:25 [restartedMain] INFO  - Resolved public ID [null] and system ID [http://dozermapper.github.io/schema/bean-mapping.xsd]
+2022-04-25 15:50:25 [restartedMain] INFO  - Successfully loaded custom xml mapping.
+2022-04-25 15:50:25 [restartedMain] INFO  - Initializing Dozer. Version: 6.4.0, Thread Name: restartedMain
+2022-04-25 15:50:25 [restartedMain] INFO  - Trying to find Dozer configuration file: dozer.properties
+2022-04-25 15:50:25 [restartedMain] INFO  - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-04-25 15:50:25 [restartedMain] INFO  - LiveReload server is running on port 35729
+2022-04-25 15:50:25 [restartedMain] INFO  - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-25 15:50:25 [restartedMain] INFO  - Starting ProtocolHandler ["http-nio-9001"]
+2022-04-25 15:50:25 [restartedMain] INFO  - Tomcat started on port(s): 9001 (http) with context path ''
+2022-04-25 15:50:25 [restartedMain] INFO  - Started Springboot2WebBasicApplicatoin in 0.316 seconds (JVM running for 1322.535)
+2022-04-25 15:50:25 [restartedMain] INFO  - Condition evaluation unchanged

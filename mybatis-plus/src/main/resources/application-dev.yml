@@ -1,0 +1,77 @@
+################################################################################################################################################
+#############################################              测试环境            ##################################################################
+################################################################################################################################################
+
+####################################
+#        embedded tomcat配置       #
+####################################
+server:
+  port: 9002
+  servlet:
+    ##session配置
+    session:
+      timeout: 86400 #设置为1天
+    #设置session超时时间，默认30min,最短1min,设置 单位是秒
+
+####################################
+#             默认错误信息获取      #
+####################################
+  error:
+#    默认报错信息中包含校验错误
+    include-binding-errors: always
+    include-stacktrace: always
+    include-exception: true
+    include-message: always
+
+
+
+
+spring:
+####################################
+#            session配置           #
+####################################
+  session:
+    #存放session的位置
+    store-type: none
+
+  datasource:
+    dynamic:
+      primary: db1 #设置默认的数据源或者数据源组,默认值即为master
+      datasource:
+        db1:
+          url: jdbc:mysql://172.20.1.117:3306/mybatis_study_01?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+          username: wqn
+          password: wqn641214
+            #          driver-class-name: com.mysql.jdbc.Driver # 3.2.0开始支持SPI可省略此配置
+        db2:
+          url: jdbc:mysql://172.20.1.118:3306/miniprogram?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+          username: wqn
+          password: wqn641214
+      lazy: true #采用懒加载模式，启动时不会报错，只有执行搜索时会出现报错
+      strict: true #严格匹配数据源,默认false. true未匹配到指定数据源时抛异常,false使用默认数据源
+
+
+####################################
+#          logback日志配置          #
+####################################
+logging:
+  config: classpath:logback-spring-dev.xml
+#  level:
+
+####################################
+#      mybatis-plus日志配置        #
+####################################
+mybatis-plus:
+  global-config:
+    db-config:
+      #逻辑删除-start
+      logic-delete-field: flag # 全局逻辑删除的实体字段名(since 3.3.0,配置后可以忽略不配置步骤2)
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+      #逻辑删除-end
+  configuration:
+    #    记录mybatis查询,即便有logback配置最好也加上，能够在控制台显示更多内容
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  # 是否需要配置，暂时看非必要2022.4.25
+#  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: cj.mybatis.studyproject01.entity

@@ -1,0 +1,7 @@
+1.测试红包，需要提前准备好数据：
+ 总红包：
+    key : redPacket + 红包Id
+    value : 一般设置为20000
+
+2.测试工具：httpd-tool 即ab工具
+    ab -n 30000 -c 1000 -k -p /home/ab.txt  -T application/x-www-form-urlencoded http://172.16.18.25:9003/userRedPacket/grapRedPacketByRedis

@@ -12,6 +12,7 @@
         <module name="mybatis-plus" />
         <module name="dubbo-provider9210" />
         <module name="rabbit-mq" />
+        <module name="dubbo-consumer9201" />
         <module name="rabbitmq-consumer9101" />
         <module name="web-basic" />
         <module name="redis-basic" />

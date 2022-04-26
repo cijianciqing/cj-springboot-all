@@ -5,7 +5,7 @@
 #        embedded tomcat配置       #
 ####################################
 server:
-  port: 9210
+  port: 9201
   servlet:
     ##session配置
     session:

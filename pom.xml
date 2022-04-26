@@ -16,6 +16,7 @@
         <module>rabbitmq-producer9110</module>
         <module>dubbo-provider9210</module>
         <module>dubbo-share</module>
+        <module>dubbo-consumer9201</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cj-springboot-all</artifactId>
+        <groupId>cj.java.template</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dubbo-provider9210</artifactId>
+
+    <properties>
+        <spring-boot.version>2.1.1.RELEASE</spring-boot.version>
+        <dubbo.version>2.7.8</dubbo.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Spring Boot -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!--dubbo相关-start -->
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>0.2.1.RELEASE</version>
+        </dependency>
+
+        <!-- Dubbo -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>2.6.5</version>
+        </dependency>
+
+        <!-- Netty -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
+
+        <!-- Dubbo Nacos registry dependency -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-registry-nacos</artifactId>
+            <version>0.0.2</version>
+        </dependency>
+
+        <!-- Keep latest Nacos client version -->
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-client</artifactId>
+            <version>[0.6.1,)</version>
+        </dependency>
+        <!--
+        使用nacos1.1.4报错Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.client.naming.utils.StringUtils
+        -->
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-client</artifactId>
+            <version>0.6.1</version>
+        </dependency>
+        <!-- Alibaba Spring Context extension -->
+        <dependency>
+            <groupId>com.alibaba.spring</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <!--dubbo相关-end -->
+
+        <!--dubbo provider/consumer共用的package-->
+        <dependency>
+            <groupId>cj.java.template</groupId>
+            <artifactId>dubbo-share</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--     <dependency>
+                 <groupId>org.springframework.boot</groupId>
+                 <artifactId>spring-boot-starter-actuator</artifactId>
+             </dependency>-->
+
+        <!--cj universal start-->
+<!--        <dependency>-->
+<!--            <groupId>cn.com.ns.cj</groupId>-->
+<!--            <artifactId>cjuniversal-spring-boot-starter</artifactId>-->
+<!--        </dependency>-->
+        <!--cj universal end-->
+
+        <!--工具类-start-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--工具类-end-->
+
+    </dependencies>
+</project>

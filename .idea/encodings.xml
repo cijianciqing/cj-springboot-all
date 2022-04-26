@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/dubbo-provider9210/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-provider9210/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-share/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-share/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-plus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-plus/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbitmq-consumer9101/src/main/java" charset="UTF-8" />

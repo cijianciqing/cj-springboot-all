@@ -14,6 +14,8 @@
         <module>redis-basic</module>
         <module>rabbitmq-consumer9101</module>
         <module>rabbitmq-producer9110</module>
+        <module>dubbo-provider9210</module>
+        <module>dubbo-share</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -76,6 +78,15 @@
                 <version>${jedis.version}</version>
             </dependency>
             <!--redis相关-end-->
+
+            <!--dubbo相关-start -->
+            <!-- Dubbo Spring Boot Starter -->
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>0.2.0</version>
+            </dependency>
+            <!--dubbo相关-end -->
 
 
             <!--mybatisPlus-start-->

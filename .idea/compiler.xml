@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rabbitmq-producer9110" />
+        <module name="dubbo-share" />
         <module name="mybatis-plus" />
-        <module name="web-basic" />
-        <module name="redis-basic" />
+        <module name="dubbo-provider9210" />
         <module name="rabbit-mq" />
         <module name="rabbitmq-consumer9101" />
+        <module name="web-basic" />
+        <module name="redis-basic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">

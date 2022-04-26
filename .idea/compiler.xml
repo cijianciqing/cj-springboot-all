@@ -7,11 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rabbitmq-producer9110" />
         <module name="mybatis-plus" />
-        <module name="redis-basic" />
         <module name="web-basic" />
+        <module name="redis-basic" />
+        <module name="rabbit-mq" />
+        <module name="rabbitmq-consumer9101" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="rabbit-mq" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,37 @@
+2022-04-26 08:35:12 [restartedMain] INFO  - Starting CJRabbitMQConsumer9101 using Java 1.8.0_161 on NS-20200706KEOF with PID 18092 (E:\java\cjProject\cj-springboot-all\rabbitmq-consumer9101\target\classes started by Administrator in E:\java\cjProject\cj-springboot-all)
+2022-04-26 08:35:12 [restartedMain] INFO  - The following profiles are active: dev
+2022-04-26 08:35:12 [restartedMain] INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-26 08:35:12 [restartedMain] INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-26 08:35:13 [restartedMain] INFO  - Tomcat initialized with port(s): 9101 (http)
+2022-04-26 08:35:13 [restartedMain] INFO  - Initializing ProtocolHandler ["http-nio-9101"]
+2022-04-26 08:35:13 [restartedMain] INFO  - Starting service [Tomcat]
+2022-04-26 08:35:13 [restartedMain] INFO  - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-26 08:35:13 [restartedMain] INFO  - Initializing Spring embedded WebApplicationContext
+2022-04-26 08:35:13 [restartedMain] INFO  - Root WebApplicationContext: initialization completed in 1052 ms
+2022-04-26 08:35:14 [restartedMain] INFO  - Initializing Dozer. Version: 6.4.0, Thread Name: restartedMain
+2022-04-26 08:35:14 [restartedMain] INFO  - OSGi support is false
+2022-04-26 08:35:14 [restartedMain] INFO  - Trying to find Dozer configuration file: dozer.properties
+2022-04-26 08:35:14 [restartedMain] INFO  - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-04-26 08:35:14 [restartedMain] INFO  - Using URL [cjDefaultDozerBeanMapping.xml] to load custom xml mappings
+2022-04-26 08:35:14 [restartedMain] INFO  - Trying to resolve XML entity with public ID [null] and system ID [http://dozermapper.github.io/schema/bean-mapping.xsd]
+2022-04-26 08:35:14 [restartedMain] INFO  - Resolved public ID [null] and system ID [http://dozermapper.github.io/schema/bean-mapping.xsd]
+2022-04-26 08:35:14 [restartedMain] INFO  - Successfully loaded custom xml mapping.
+2022-04-26 08:35:14 [restartedMain] INFO  - Initializing Dozer. Version: 6.4.0, Thread Name: restartedMain
+2022-04-26 08:35:14 [restartedMain] INFO  - Trying to find Dozer configuration file: dozer.properties
+2022-04-26 08:35:14 [restartedMain] INFO  - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-04-26 08:35:14 [restartedMain] INFO  - javax.el support is true
+2022-04-26 08:35:14 [restartedMain] WARN  - Unable to start LiveReload server
+2022-04-26 08:35:14 [restartedMain] INFO  - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-26 08:35:14 [restartedMain] INFO  - Starting ProtocolHandler ["http-nio-9101"]
+2022-04-26 08:35:14 [restartedMain] INFO  - Tomcat started on port(s): 9101 (http) with context path ''
+2022-04-26 08:35:14 [restartedMain] INFO  - Attempting to connect to: [172.16.207.221:5672]
+2022-04-26 08:35:14 [restartedMain] INFO  - Created new connection: rabbitConnectionFactory#2012a608:0/SimpleConnection@10df4af6 [delegate=amqp://admin@172.16.207.221:5672/, localPort= 3692]
+2022-04-26 08:35:14 [restartedMain] INFO  - Started CJRabbitMQConsumer9101 in 2.586 seconds (JVM running for 3.206)
+2022-04-26 08:35:14 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  - 获取Message时间: Tue Apr 26 08:35:14 CST 2022,从队列过去信息: nihao中国
+2022-04-26 08:35:14 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  - 获取Message时间: Tue Apr 26 08:35:14 CST 2022,从队列过去信息: nihao中国
+2022-04-26 08:35:14 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  - 获取Message时间: Tue Apr 26 08:35:14 CST 2022,从队列过去信息: nihao中国
+2022-04-26 08:35:15 [RMI TCP Connection(1)-172.16.18.25] INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-26 08:35:15 [RMI TCP Connection(1)-172.16.18.25] INFO  - Initializing Servlet 'dispatcherServlet'
+2022-04-26 08:35:15 [RMI TCP Connection(1)-172.16.18.25] INFO  - Completed initialization in 1 ms
+2022-04-26 08:35:27 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  - 获取Message时间: Tue Apr 26 08:35:27 CST 2022,从队列过去信息: nihao中国
+2022-04-26 08:35:31 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  - 获取Message时间: Tue Apr 26 08:35:31 CST 2022,从队列过去信息: nihao中国

@@ -3,6 +3,10 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/mybatis-plus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-plus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-consumer9101/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-consumer9101/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-producer9110/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-producer9110/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/redis-basic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/redis-basic/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web-basic/src/main/java" charset="UTF-8" />
